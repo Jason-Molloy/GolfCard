@@ -13,7 +13,7 @@ namespace golfCard
       Console.WriteLine("Please Select a course to play:");
       for (int i = 0; i < Courses.Count; i++)
       {
-        Console.WriteLine($"{i + 1}. {Courses[i].Name");
+        Console.WriteLine($"{i + 1}. {Courses[i].Name}");
       }
       Course course = CourseSelection();
       List<Player> players = PlayerSelection();

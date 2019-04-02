@@ -35,7 +35,7 @@ namespace golfCard.Models
       return scorecard;
     }
 
-    public void play()
+    public void Play()
     {
       int round = 1;
       foreach (var hole in Course.HolePars)
